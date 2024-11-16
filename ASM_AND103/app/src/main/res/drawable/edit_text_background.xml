@@ -1,0 +1,20 @@
+<!-- res/drawable/edittext_background.xml -->
+<shape xmlns:android="http://schemas.android.com/apk/res/android">
+    <!-- Thiết lập hình dạng cơ bản cho nền của EditText -->
+    <solid android:color="#FFFFFF" /> <!-- Màu nền trắng cho EditText -->
+
+    <!-- Thiết lập viền cho EditText -->
+    <stroke
+        android:width="2dp"
+        android:color="#CCCCCC" /> <!-- Màu viền xám nhạt -->
+
+    <!-- Thiết lập bo tròn cho góc của EditText -->
+    <corners android:radius="8dp" /> <!-- Bán kính bo tròn 8dp -->
+
+    <!-- Thiết lập padding cho nội dung bên trong EditText -->
+    <padding
+        android:left="8dp"
+        android:right="8dp"
+        android:top="8dp"
+        android:bottom="8dp" />
+</shape>
